@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/pubnub/php/branch/master/graph/badge.svg)](https://codecov.io/gh/pubnub/php)
 [![Docs](https://img.shields.io/badge/docs-online-blue.svg)](https://www.pubnub.com/docs/php/pubnub-php-sdk)
 
-The SDK supports PHP 5.6, 7.0, 7.1 and hhvm.
+The SDK supports PHP 7.0, 7.1 and hhvm.
 
 ## Documentation
 
