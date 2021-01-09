@@ -102,6 +102,14 @@ class Subscribe extends Endpoint
     }
 
     /**
+     * @return SubscribeEnvelope
+     */
+    public function sync()
+    {
+        return parent::sync();
+    }
+
+    /**
      * @throws PubNubValidationException
      */
     protected function validateParams()
@@ -111,7 +119,6 @@ class Subscribe extends Endpoint
         }
 
         $this->validateSubscribeKey();
-        $this->validatePublishKey();
     }
 
     /**
@@ -130,7 +137,7 @@ class Subscribe extends Endpoint
         }
 
         if ($this->timetoken !== null) {
-            $params['tt'] = (string) $this->timetoken;
+            $params['tt'] = (string)$this->timetoken;
         }
 
         if ($this->region !== null) {
@@ -160,14 +167,6 @@ class Subscribe extends Endpoint
             $this->pubnub->getConfiguration()->getSubscribeKey(),
             $channels
         );
-    }
-
-    /**
-     * @return SubscribeEnvelope
-     */
-    public function sync()
-    {
-        return parent::sync();
     }
 
     /**

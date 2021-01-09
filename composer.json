@@ -1,8 +1,15 @@
 {
-  "name": "pubnub/pubnub",
+  "name": "bee777/pubnub-extended",
   "type": "library",
-  "description": "The Only Global Network For Real-Time Data -- PubNub!",
-  "keywords": ["api", "real-time", "realtime", "real time", "ajax", "push"],
+  "description": "The Only Global Network For Real-Time Data -- PubNub - Extended!",
+  "keywords": [
+    "api",
+    "real-time",
+    "realtime",
+    "real time",
+    "ajax",
+    "push"
+  ],
   "homepage": "http://www.pubnub.com/",
   "license": "MIT",
   "version": "4.1.7",
@@ -10,6 +17,10 @@
     {
       "name": "PubNub",
       "email": "support@pubnub.com"
+    },
+    {
+      "name": "PubNub - Extended",
+      "email": "beetimberlake2@gmail.com"
     }
   ],
   "scripts": {
