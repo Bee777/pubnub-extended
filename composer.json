@@ -12,7 +12,7 @@
   ],
   "homepage": "http://www.pubnub.com/",
   "license": "MIT",
-  "version": "4.1.7.1",
+  "version": "4.1.7.3",
   "authors": [
     {
       "name": "PubNub - Extended",
@@ -27,12 +27,12 @@
     "test": "./vendor/bin/phpunit tests/  --verbose --coverage-clover=coverage.clover"
   },
   "require": {
-    "php": ">=7.0",
+    "php": "^7.0|^8.0",
     "rmccue/requests": "^1.0",
     "monolog/monolog": "^1.1|^2.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5.7"
+    "phpunit/phpunit": "^7.0|^8.0"
   },
   "autoload": {
     "psr-0": {
