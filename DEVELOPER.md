@@ -1,6 +1,6 @@
 # Developers 
 ## Supported PHP versions
-We support PHP >= 5.6 + hhvm.
+We support PHP >= 7.0 + hhvm.
 
 ## Supported platforms
 We maintain and test our SDK using Travis.CI and Ubuntu.
